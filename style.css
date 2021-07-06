@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+* body {
+  margin: 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+body h1 {
+  font-size: 45px;
+}
+body h2 {
+  font-size: 35px;
+  color: gray;
+}
+body p {
+  font-size: 20px;
+}
+.flex-container {
+  display: flex;
+}
+.healthy-diet {
+  width: 50%;
+  padding: 100px;
+}
+.different-color {
+  color: tomato;
+}
+.link-button {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 16px 35px;
+  margin-top: 200px;
+  background-image: linear-gradient(to right, orange, tomato);
+  border-radius: 25px;
+  text-align: justify;
+}
+.diet-model {
+  margin: 55px;
+  height: 80%;
+  width: 80%;
+}
+.mid-bar {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+}
+.about-me {
+  margin: 55px;
+  width: 20%;
+  height: 545px;
+  width: 400px;
+}
+.recipies {
+  text-align: center;
+}
+.recipie-item {
+  width: 25%;
+  padding: 5px;
+  border: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.item {
+  max-width: 75%;
+  max-height: 50%;
+  padding: 5px;
+}
+.statistic {
+  text-align: center;
+  padding: 20px;
+  margin: 50px 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.info {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.youtube {
+  max-width: 15%;
+  max-height: 20%;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 15px 10px 25px 10px;
+}
